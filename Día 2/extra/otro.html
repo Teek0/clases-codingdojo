@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Segunda página web</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <h1 id="titulo2">Otra sección</h1>
+    <a href="../index.html">Volver</a>
+    <form>
+      <div>
+        <label for="nombreUsuario">Nombre</label> <!-- el for es solo para el label-->
+        <input type="text" placeholder="Juan" name="nombreUsuario" id="nombreUsuario" />
+      </div>
+      <div>
+        <label for="apellidoUsuario">Apellido</label>
+        <input type="text" placeholder="Pérez" name="apellidoUsuario" id="apellidoUsuario" />
+      </div>
+      <div>
+        <label for="passwordUsuario">Password</label>
+        <input type="password" placeholder="contraseña123" name="passwordUsuario" id="passwordUsuario"/>
+      </div>
+      <div>¿Tienes hermanos o hermanas?
+        <label for="siHermanos">Si</label>
+        <input type="radio" name="hermanos" value="si" id="siHermanos" /> <!-- radio botón -->
+        <label for="noHermanos">No</label>
+        <input type="radio" name="hermanos" value="no" id="noHermanos"/>
+
+      </div>
+      <!-- <div>
+        <label>¿Cuántos?</label>
+        <input type="number" name="cantidadHermanos" />  number campo de número 
+      </div> -->
+      <div>
+        ¿Cuál es tu película favorita?
+        <input type="checkbox" name "pelicula" id="avengers"> <label for="avengers">Avengers</label>
+        <input type="checkbox" name "pelicula" id="hPotter"> <label for="hPotter">Harry Potter</label>
+        <input type="checkbox" name "pelicula" id="starWars"> <label for="starWars">Star Wars</label>
+      </div>
+      <div>
+        <label for="colorFavorito">¿Cuál es tu color favorito?</label>
+        <select name="colorFavorito" id="colorFavorito">
+          <option >Rojo</option>
+          <option >Verde</option>
+          <option >Azul</option>
+        </select>
+      </div>
+      <div>
+        <label for="comentario">Deja un comentario</label>
+        <textarea name="comentario" id="comentario"></textarea>
+      </div>
+      <div> <!-- dos formas de colocar un botón, pero la etiqueta de botón puede estar fuera de un formulario 
+        pues no hay inputs fuera de un formulario -->
+        <input type="submit" value="Enviar" />
+        <button type="submit">Enviar de nuevo</button>
+      </div>
+    </form>
+  </body>
+</html>

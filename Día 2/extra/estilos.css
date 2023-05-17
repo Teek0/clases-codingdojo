@@ -1,0 +1,68 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: #DAD9E8;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid #404061;
+}
+
+#titulo{
+    color: fuchsia;
+    background-color: #c5c5d8;
+    font-size: 40px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding: 15px;
+    border: 5px solid #404061;
+    /*border-width, border-style, border-color*/
+    margin: 10px 50px; /* top, right, bottom, left */
+}
+#titulo2{
+    border-bottom: 5px solid #404061;
+}
+/*<hr> crea una linea pero es mala praxis igual que el <br/>*/
+li{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* No todas las propiedades se heredan */
+}
+
+.renglon{
+    background-color: #404061;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.tablaPersona{
+    border: 5px solid #e7e7f1;
+    width: 50%;
+    height: 95px;
+    margin: 10px;
+    
+}
+table{
+    border-spacing: 1px;
+    border-radius: 10px;
+}
+/* selectores avanzados (hibridos) por ejemplo esto */
+tr > td, th{ /* esto quiere decir: selecciona todos los td que sean hijos directos/inmediatos de un tr (y la ,th incluye esa seccion */
+    text-align: center;
+}
+/* cuando se seleccionan todos los hijos (tanto inmediatos como en segundo grado como nietos) se deja solo un espacio, por ejemplo : div button <- esto quiere decir TODOS los botones dentro de un div */
+form label{
+    color:brown;
+}
+.sangria{
+    margin-left: 20px;
+}
+.especial{
+    color: red;
+    font-weight: bold;
+}
+img{
+    border: 5px solid #404061;
+    border-radius: 30%;
+}

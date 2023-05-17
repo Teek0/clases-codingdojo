@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Primera página web</title>
+    <link rel="stylesheet" href="./extra/estilos.css"/>
+  </head>
+  <body>
+    <h1 id="titulo">Título principal</h1>
+    <h2 id="subtitulo">Subtítulo</h2> <!-- h1, h2, h3, h4, h5, h6 -->
+
+    <!--
+      Elementos de accesibilidad:
+        -<main> define el contenido principal de un documento
+        -<section> define una sección en un documento
+        -<header> define una sección de encabezado para el contenido
+        -<footer> define una sección de pie de página para el contenido
+        -<nav> define un conjunto de enlaces de navegación
+        -<article> define un artículo independiente
+        --------------------
+        -<aside> define contenido que debe aparecer aparte del contenido de la página web
+        -<details> define detalles adicionales que el usuario puede ver u ocultar en la página web
+        -<summary> define un encabezado visible para el elemento <details>
+        -<figure> especifica contenido independiente, como ilustraciones, diagramas, fotos, código, etc.
+        -<figcaption> define un título para el elemento <figure>
+        -<mark> define texto marcado
+        -<time> define una fecha/hora
+        -<meter> define una medida escalar dentro de un rango conocido o un valor fraccionario
+        -<progress> representa el progreso de una tarea
+        -<dialog> define una caja de diálogo o ventana
+
+
+    -->
+    <nav>
+      <a href="./extra/otro.html">Otra página</a> <!-- ruta relativa -->
+      <a href="https://www.google.com">Google</a>
+    </nav>
+    <main>
+      <p> <!-- p párrafo -->
+        <span class="sangria">Lorem</span> ipsum, dolor sit amet consectetur adipisicing elit. Atque quis ut
+        facere quisquam? Ducimus eum quos nobis a <span class="especial">animi</span> repellendus, laudantium ex
+        delectus beatae perspiciatis nesciunt? Voluptatum vel possimus assumenda!
+      </p>
+      <p>
+        <span class="sangria">Lorem</span> ipsum, dolor sit amet consectetur adipisicing elit. Atque quis ut
+        facere quisquam? Ducimus eum quos nobis a animi repellendus, laudantium ex
+        delectus beatae perspiciatis nesciunt? <span class="especial">Voluptatum</span> vel possimus assumenda!
+      </p>
+      <ol class="cursos"> <!-- ol lista numerada/ordenada -->
+        <li>Primer elemento</li>
+        <li>Segundo elemento</li>
+        <li>Tercer elemento</li>
+      </ol>
+      <ul class="cursos"> <!-- ul lista punteada/desordenada -->
+        <li>Primer elemento</li>
+        <li>Segundo elemento</li>
+        <li>Tercer elemento</li>
+      </ul>
+    </main>
+    <table class="tablaPersona">
+      <tr class="renglon"> <!-- tr (tablerow) fila -->
+        <th>Nombre</th> <!-- th (tableheader) encabezado de columna -->
+        <th>Apellido</th>
+        <th>Edad</th>
+        <th>Sexo</th>
+      </tr>
+      <tr class="renglon">
+        <td>Nombre 1</td> <!-- td celda -->
+        <td>Apellido 1</td>
+        <td>Edad 1</td>
+        <td>Sexo 1</td>
+      </tr>
+      <tr class="renglon">
+        <td>Nombre 2</td> <!-- td celda -->
+        <td>Apellido 2</td>
+        <td>Edad 2</td>
+        <td>Sexo 2</td>
+      </tr>
+    </table>
+    <img src="./extra/813-200x300.jpg" alt="Imagen de prueba" /> <!-- img imagen formato jpg, png, gif -->
+    <img src="https://picsum.photos/200/300" alt="Imagen aleatoria" />
+    <br />
+    <br />
+  </body>
+</html>
