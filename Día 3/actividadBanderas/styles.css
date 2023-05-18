@@ -1,0 +1,128 @@
+.bandera{
+    height: 300px;
+    width: 500px;
+}
+/*France*/
+.firstFrance{
+    height: 300px;
+    width: 166px;
+    background-color: #002551;
+    display: inline-block;
+    margin-right:-4px;
+}
+.secondFrance{
+    height: 300px;
+    width:166px;
+    background-color: #faf7f7;
+    display: inline-block;
+    margin-right:-4px;
+}
+.thirdFrance{
+    height: 300px;
+    width:166px;
+    background-color: #C81025;
+    display: inline-block;
+}
+/*Netherlands*/
+.first{
+    height: 100px;
+    width: 500px;
+    background-color: #002551;
+    display: block;
+}
+.second{
+    height: 100px;
+    width:500px;
+    background-color: #faf7f7;
+    display: block;
+}
+.third{
+    height: 100px;
+    width:500px;
+    background-color: #C81025;
+    display: block;
+}
+/*Suecia*/
+#suecia {
+    background-color: #FECD00;
+}
+.firstLeft{
+    height: 100px;
+    width: 100px;
+    background-color:#0067A2;
+    display:inline-block;
+}
+.firstRight{
+    height: 100px;
+    width: 350px;
+    background-color:#0067A2;
+    margin-left: 46px;
+    display:inline-block;
+}
+.secondLeft{
+    height: 150px;
+    width: 100px;
+    background-color:#0067A2;
+    margin-top: 46px;
+    display:inline-block;
+}
+.secondRight{
+    height: 150px;
+    width: 350px;
+    background-color:#0067A2;
+    margin-left: 46px;
+    margin-top: 46px;
+    display:inline-block;
+}
+/*Japon*/
+#japon{
+    background-color: #faf7f7;
+}
+.circle{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 70px 0px 0px 170px;
+}
+/*Chile*/
+/* .star1 {
+    margin: 60px 0;
+    position: relative;
+    display: block;
+    color: red;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid red;
+    border-left: 100px solid transparent;
+    transform: rotate(35deg);
+}
+.star1:before {
+    border-bottom: 80px solid red;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+}
+.star1:after {
+    position: absolute;
+    display: block;
+    color: red;
+    top: 3px;
+    left: -105px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid red;
+    border-left: 100px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+} */
