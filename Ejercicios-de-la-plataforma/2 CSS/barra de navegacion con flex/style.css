@@ -12,7 +12,7 @@ body{
     width: 100%;
     display: flex; /*para que los elementos se pongan en una fila*/
     justify-content: space-between; /*para separar nav-title y nav-links*/
-    align-items: center; /*para que los elementos se centren verticalmente*/;
+    align-items: center; /*para que los elementos se centren verticalmente*/
     padding: 0 10px;
 }
 .nav-links{
