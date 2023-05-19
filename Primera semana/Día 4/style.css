@@ -45,3 +45,6 @@ div {
     flex:1;
     justify-content: space-evenly;
 }
+.contentItem{
+    flex:1;
+}

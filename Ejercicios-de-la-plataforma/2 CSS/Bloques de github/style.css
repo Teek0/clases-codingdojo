@@ -1,0 +1,43 @@
+/*centra todo*/
+.fondo{ 
+    background-color: #E8FAFF;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*formato de texto*/
+.titulo,p{
+    color:#374855;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:10px;
+}
+.titulo{
+    font-size: 40px;
+    font-weight: 700;
+}
+/*formato de contenedores*/
+.contenedores{
+    width: 50%;     /*los contenedores ocupan 50% del ancho (de la pag)*/
+}
+.contenedor{
+    display:flex;
+    width: 100%;
+    justify-content: space-evenly; /*mantiene la misma dist. entre img y la orilla del contenedor*/
+    padding: 15px;
+    margin: 15px;
+}
+#contenedorUno{
+background-color: #5AC6ED;
+}
+#contenedorDos{
+    background-color: #D8A3BD;
+}
+#contenedorTres{
+    background-color: #3F0D6A;
+}
+img {
+    width: 150px;
+}
+a{
+    color: #2cd4e0;
+}
