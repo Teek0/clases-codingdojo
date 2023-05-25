@@ -13,16 +13,16 @@ console.log( nombres );
 
 console.log( "Length: " + nombres.length );
 
-nombres.push( "Julieta" );
+nombres.push( "Julieta" ); //push, introduce al final del arreglo
 console.log( "Length: " + nombres.length );
 console.log( nombres );
 
-nombres.pop();
+nombres.pop();  //pop, quita el ultimo elemento del arreglo
 nombres.pop();
 console.log( "Length: " + nombres.length );
 console.log( nombres );
 
-nombres.unshift( "Julieta" );
+nombres.unshift( "Julieta" ); // introduce el dato en el lugar 0
 console.log( "Length: " + nombres.length );
 console.log( nombres );
 
