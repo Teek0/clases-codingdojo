@@ -4,6 +4,9 @@ function logout(button){
 function addDefDel(button){
     button.remove();
 }
-function likeAlert(){
+function likeAlert(elemento){
     alert("Ninja was liked");
+    let num = parseInt(elemento.innerHTML);
+    num++;
+    elemento.innerHTML= num+" likes";
 }
