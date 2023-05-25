@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+button{
+    box-shadow: 3px 3px black;
+    padding: 5px 25px;
+    border: 2px solid black;
+    font-size: 15px;
+    cursor:pointer;
+}
+/*--------------header----------------------*/
+.topBar{
+    background: #CCCCCC;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:10px;
+}
+.topBar h1{
+    font-size: 50px;
+}
+.topBar input{
+    border: 2px solid black;
+    padding: 5px;
+    width: 30%;
+}
+.topBar button{
+    background: #2B78E4;
+    color: white;
+    padding: 5px 10px;
+}
+/*-----------------main---------------------*/
+.main{                                      /*padre de section & aside*/
+    display:flex;
+    justify-content: space-around;
+    align-items: start;
+    padding:5px;
+}
+/*SECTION*//*SECTION*//*SECTION*//*SECTION*//*SECTION*//*SECTION*/
+.words{ 
+    flex:4;
+}
+.tarjeta{
+    border:2px solid black;
+    padding: 10px;
+    margin: 5px 5px 10px;
+    display:flex;
+    align-items: center;
+}
+.palabra{
+    flex:3;
+    text-align: center;
+}
+.palabra h2{
+    font-size: 30px;
+}
+.palabra button{
+    background: #F4D165;
+    margin-top: 15px;
+}
+.italic{
+    font-style: italic;
+}
+.tarjeta p:last-child{
+    flex:5;
+    margin:30px;
+}
+.linked{
+    color:#2B78E4;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor:pointer;
+}
+/*ASIDE*//*ASIDE*//*ASIDE*//*ASIDE*//*ASIDE*//*ASIDE*//*ASIDE*/
+.addDef{ 
+    flex:2;
+    padding: 10px 5px;
+    margin: 5px;
+    border: 2px solid black;
+    text-align: center;
+}
+.addDef button{
+    background: #93C47D;
+    margin-top: 15px;
+}
