@@ -37,11 +37,35 @@
             </article>
         </section>
 
-        <aside class="addDef">
-            <h2>Dojonary is</h2>
-            <h2>defined by YOU</h2>
-            <button onclick="addDefDel(this)">Add Definition</button>
+        <aside class="aside">
+            <div class="interiorAside">
+                <h2>Dojonary is</h2>
+                <h2>defined by YOU</h2>
+                <button onclick="addDefinition(this)">Add Definition</button>
+            </div>
+            <div class="interiorAside">
+                <select id="country">
+                    <option value="-1">Select a country</option>
+                    <option value="CH">Chile</option>
+                    <option value="MX">México</option>
+                    <option value="PE">Perú</option>
+                    <option value="US">USA</option>
+                </select>
+            </div>
+            <div class="interiorAside">
+                <h2>This is a cookie</h2>
+                <button onclick="deleted(this)">Delete cookie</button>
+            </div>
+            <div class="interiorAside" id="boxyBox">
+                <h2>HIDE THIS BOX PLEASE</h2>
+                <button onclick="hideThis(this)">This will just hide it</button>
+            </div>
+            <div>
+                <h2>Show the box</h2>
+                <button onclick="showThis()">Click here</button>
+            </div>
         </aside>
+        
     </main>
     
     <script src="./js/index.js"></script>

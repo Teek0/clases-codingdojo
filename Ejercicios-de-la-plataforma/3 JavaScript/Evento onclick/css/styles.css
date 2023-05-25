@@ -75,14 +75,26 @@ button{
     cursor:pointer;
 }
 /*ASIDE*//*ASIDE*//*ASIDE*//*ASIDE*//*ASIDE*//*ASIDE*//*ASIDE*/
-.addDef{ 
+.aside{
     flex:2;
-    padding: 10px 5px;
     margin: 5px;
+}
+.interiorAside{ 
+    padding: 10px 5px;
     border: 2px solid black;
     text-align: center;
+    margin-bottom: 10px;
 }
-.addDef button{
+.interiorAside button{
     background: #93C47D;
     margin-top: 15px;
+}
+.interiorAside select{
+    padding:5px;
+    margin:10px;
+}
+
+/*otros*/
+.hide{
+    display:none;
 }
