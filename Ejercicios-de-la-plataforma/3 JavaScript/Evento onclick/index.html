@@ -11,7 +11,7 @@
     
     <header class="topBar">
         <h1>Dojonary</h1>
-        <input type="text" placeholder="Search">
+        <input type="text" placeholder="Search" onkeyup="desplegarTexto(this)">
         <button onclick=logout(this)>Login</button>
     </header>
     
@@ -44,7 +44,7 @@
                 <button onclick="addDefinition(this)">Add Definition</button>
             </div>
             <div class="interiorAside">
-                <select id="country">
+                <select id="country" onchange="seleccionarPais(this)">
                     <option value="-1">Select a country</option>
                     <option value="CH">Chile</option>
                     <option value="MX">México</option>
@@ -60,7 +60,7 @@
                 <h2>HIDE THIS BOX PLEASE</h2>
                 <button onclick="hideThis(this)">This will just hide it</button>
             </div>
-            <div>
+            <div class="showMe">
                 <h2>Show the box</h2>
                 <button onclick="showThis()">Click here</button>
             </div>

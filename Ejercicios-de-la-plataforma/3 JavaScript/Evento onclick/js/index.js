@@ -1,7 +1,12 @@
 function logout(button){
-    button.innerText="Logout";
+    if (button.innerHTML=="Login") {
+        button.innerText="Logout";
+    }
+    else {
+        button.innerText="Login";
+    }
 }
-function addDefinition(button){
+function addDefinition(){
     let contenedor=document.querySelector(".words");
     contenedor.innerHTML+=
             `<article class="tarjeta">
@@ -13,14 +18,12 @@ function addDefinition(button){
                 </div>
                 <p>A practitioner skilled in the <span class="linked">Japanese</span> art of <span class="linked">ninjutsu</span></p>
             </article>`;
-
-    
 }
 function likeAlert(elemento){
     alert("Ninja was liked");
     let num = parseInt(elemento.innerHTML);
     num++;
-    elemento.innerHTML= num+" likes";
+    elemento.innerHTML= num + " likes";
 }
 function deleted(elemento){
     elemento.closest(".interiorAside").remove();
@@ -30,4 +33,12 @@ function hideThis(elemento){
 }
 function showThis(){
     document.getElementById("boxyBox").classList.remove("hide");
+}
+
+function seleccionarPais(elemento){
+    alert(elemento.value);
+}
+
+function desplegarTexto(element){
+    console.log(element.value);
 }

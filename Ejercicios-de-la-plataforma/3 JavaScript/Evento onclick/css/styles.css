@@ -98,3 +98,6 @@ button{
 .hide{
     display:none;
 }
+.showMe{
+    text-align: end;
+}
