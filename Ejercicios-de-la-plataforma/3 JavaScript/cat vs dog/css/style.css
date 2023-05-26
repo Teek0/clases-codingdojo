@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(250, 246, 242);
+    text-align: center;
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:coral;
+}
+div,button{
+    margin:10px;
+}
+button{
+    background-color: crimson;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 30px;
+    color: aliceblue;
+    font-weight: bold;
+    box-shadow: 2px 2px 30px 3px black;
+    cursor:pointer;
+}
+#fav-animal{
+    height: 200px;
+    box-shadow: 2px 2px 30px 3px black;
+    margin:20px;
+}
