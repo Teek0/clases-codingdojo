@@ -9,13 +9,16 @@
 </head>
 <body>
     
-    <header class="topBar">
+    <header id="header" class="topBar">
         <h1>Dojonary</h1>
-        <input type="text" placeholder="Search" onkeyup="desplegarTexto(this)">
+        <div>
+            <input type="text" class="search" placeholder="Search" onkeyup="desplegarTexto(this)" value="">
+            <button onclick=search()>Buscar</button>
+        </div>
         <button onclick=logout(this)>Login</button>
     </header>
     
-    <main class="main">
+    <main id="main" class="main">
         <section class="words">
             <article class="tarjeta">
                 <div class="palabra">
@@ -65,8 +68,13 @@
                 <button onclick="showThis()">Click here</button>
             </div>
         </aside>
-        
     </main>
+
+    <div id="modal" class="hide">
+        <h2 class="tituloModal">Bandera de</h2>
+        <div><img id="bandera" src=""></div>
+        <button class="" onclick="hideModal(this)">cerrar</button>
+    </div>
     
     <script src="./js/index.js"></script>
 </body>

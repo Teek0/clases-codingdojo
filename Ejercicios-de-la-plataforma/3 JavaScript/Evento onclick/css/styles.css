@@ -4,6 +4,10 @@
     padding: 0;
     font-family: 'Balsamiq Sans', cursive;
 }
+body{
+    background-color: #f0f0f0;
+    position:relative;
+}
 button{
     box-shadow: 3px 3px black;
     padding: 5px 25px;
@@ -22,15 +26,22 @@ button{
 .topBar h1{
     font-size: 50px;
 }
+.topBar div{
+    width: 30%;
+}
 .topBar input{
     border: 2px solid black;
     padding: 5px;
-    width: 30%;
+    width: 75%;
 }
 .topBar button{
     background: #2B78E4;
     color: white;
     padding: 5px 10px;
+}
+.topBar div button{
+    background-color: pink;
+    color: black;
 }
 /*-----------------main---------------------*/
 .main{                                      /*padre de section & aside*/
@@ -49,6 +60,7 @@ button{
     margin: 5px 5px 10px;
     display:flex;
     align-items: center;
+    background-color: white;
 }
 .palabra{
     flex:3;
@@ -84,6 +96,7 @@ button{
     border: 2px solid black;
     text-align: center;
     margin-bottom: 10px;
+    background-color: white;
 }
 .interiorAside button{
     background: #93C47D;
@@ -100,4 +113,30 @@ button{
 }
 .showMe{
     text-align: end;
+}
+.opacidad{
+    opacity: 0.4;
+}
+
+#modal{
+    position:absolute;
+    top:35%;
+    left:35%;
+    color:white;
+    background-color: rgb(56, 56, 56);
+    padding:10px 60px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+#modal button{
+    background: pink;
+    float: right;
+}
+#modal h2{
+    margin:5px;
+}
+#modal img{
+    width: 150px;
+    padding:5px;
 }
