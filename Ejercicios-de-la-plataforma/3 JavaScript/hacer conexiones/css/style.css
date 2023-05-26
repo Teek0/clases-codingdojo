@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.webProfile{
+    font-family: 'Roboto', sans-serif;
+}
+.profilePic{
+    border:5px solid #CCCCCC;
+    border-radius: 50%;
+    height: 150px;
+}
+/*------------------HEADER-------------------*/
+.header{
+    background-color: #292929;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px; 
+    color:white;
+}
+.headerList{
+    display:flex;
+    align-items: center;
+    list-style: none;
+}
+.headerList>li{
+    padding: 5px;
+    margin: 10px;
+}
+.headerList>li:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+.headerList>li>button, .cambiarNombre button{
+    background-color: #17A2B8;
+    color:white;
+    padding: 5px 10px;
+    box-shadow: 3px 3px 1px 1px black;
+    cursor: pointer;
+}
+/*-----------MAIN: SECTION & ASIDE---------------*/
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.section{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex:2;
+}
+.aside{
+    margin: 0 20px 20px 0;
+    padding: 1px;
+    flex:1;
+}
+/*------Profile------*/
+.userCard{ /*CONTIENE CONTENEDORES DE LA USER CARD*/
+    border: 4px solid #CCCCCC;
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    justify-content: center;
+    height: 400px;
+}
+.upperBackground{
+    padding:20px;
+    background-color:#17A2B8;
+    flex:1;
+}
+.bottomBackground{
+    padding:20px;
+    background-color: whitesmoke;
+    flex:3;
+}
+.profileContent{ /*DISPLAY DE LA INFO*/
+    padding:20px;
+    position:absolute;
+}
+.profileContent>h2{
+    font-size: 35px;
+}
+.city,.linkEdit{
+    display:flex;
+    align-items: center;
+}
+.city>h3,.linkEdit>p{
+    margin:10px 10px;
+
+}
+.linkEdit>p,.connects>p{
+    color:#347DE4;
+    text-decoration:underline;
+    cursor: pointer;
+}
+/*--------Education---------*/
+.educationCard{
+    background-color: whitesmoke;
+    border: 4px solid #CCCCCC;
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+}
+.educationCard>h3{
+    background-color: #292929;
+    padding:20px;
+    color:white;
+}
+.educationCard>p{
+    padding:5px 20px;
+}
+.educationName{
+    font-size: 22px;
+}
+.educationDate{
+    font-size: 15px;
+    color:#999999;
+}
+.educationDetails{
+    font-size: 19px;
+}
+/*-----Conections----*/
+.connects{
+    margin-top: 20px;
+    border: 4px solid #CCCCCC;
+    background-color: whitesmoke;
+}
+.connects>div{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.titleBarConnection{
+    background-color:#292929;
+    padding: 10px;
+}
+.connectionsNumber{
+    background-color:#999999;
+    padding:5px 10px;
+    border-radius:50%;
+    color:#292929;
+    font-weight: bold;
+}
+.connectionsNumber+p{
+    padding: 0 10px;
+    color:white;
+}
+.connects>div>ul{
+    display:flex;
+    margin:10px;
+    align-items: center;
+}
+.connects>div>ul>li{
+    list-style: none;
+    margin: 0 2px;
+}
+.connects>div>ul>li>img{
+    height: 35px;
+    border:none;
+}
+aside>p{
+    padding:10px 10px;
+    border: 4px solid #cccccc;
+}
+.linkEdit{
+    cursor: pointer;
+}
+
+/*----------------------------*/
+
+.hide{
+    display:none;
+}
+.nameEdit{
+    padding:5px;
+    margin-right: 10px;
+}
+.cambiarNombre input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.accept-circle , .close-circle{
+    cursor:pointer;
+}
