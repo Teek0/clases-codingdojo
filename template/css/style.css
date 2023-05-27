@@ -7,3 +7,19 @@
 body{
     background-color: #f0f0f0;
 }
+/*----------------------------------------------------*/
+
+/*---------------------EFECTOS-------------------------*/
+.linked{
+    color:#2B78E4;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor:pointer;
+}
+button{
+    box-shadow: 2px 2px black;
+    padding: 5px 25px;
+    border: 2px solid black;
+    font-size: 15px;
+    cursor:pointer;
+}

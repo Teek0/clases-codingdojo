@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Weather Forecast</title>
+</head>
+<body>
+    <header class="topBar">
+        <h1>DojoWeather</h1>
+        <ul>
+            <li onclick="alertaTop(this)">Burbank</li>
+            <li onclick="alertaTop(this)">Chicago</li>
+            <li onclick="alertaTop(this)">Dallas</li>
+        </ul>
+    </header>
+
+    <nav class="topNav">
+        <h2>San Jose</h2>
+        <div>
+            <p>Show temperature in</p>
+            <select name="degrees" onchange="transDeg(this)">
+                <option>°C</option>
+                <option>°F</option>
+            </select>
+        </div>
+    </nav>
+
+    <main class="showTemperatures">
+        <div class="weatherCard">
+            <h3>Today</h3>
+            <img src="./img/some_rain.png" alt="caracteristica tiempo lluvia">
+            <p>some rain</p>
+            <div class="temperInCard">
+                <div class="temMax">24°</div><div class="temMin">18°</div>
+            </div>            
+        </div>
+        <div class="weatherCard">
+            <h3>Tomorrow</h3>
+            <img src="./img/some_sun.png" alt="caracteristica tiempo sol">
+            <p>some sun</p>
+            <div class="temperInCard">
+                <div class="temMax">27°</div><div class="temMin">19°</div>
+            </div>           
+        </div>
+        <div class="weatherCard">
+            <h3>Friday</h3>
+            <img src="./img/some_clouds.png" alt="caracteristica tiempo nubes">
+            <p>some clouds</p>
+            <div class="temperInCard">
+                <div class="temMax">21°</div><div class="temMin">16°</div>
+            </div>
+        </div>
+        <div class="weatherCard">
+            <h3>Saturday</h3>
+            <img src="./img/some_sun.png" alt="caracteristica tiempo sol">
+            <p>some sun</p>
+            <div class="temperInCard">
+                <div class="temMax">26°</div><div class="temMin">21°</div>
+            </div>            
+        </div>
+    </main>
+
+    <footer>
+        <div class="cookiesDiv">
+            <img src="./img/cookie.png" alt="imagen de una galleta">
+            <div class="cookieText">
+                <h4>Stop! Cookie time</h4>
+                <p>We use cookies (sadly not the edible ones) to personalize 
+                    content and ads, to provide social media features and to
+                    analyse our traffic. <span class="linked">Read more...</span>
+                </p>
+            </div>
+            <button class="acceptCookies" onclick="acceptCookies(this)">I Accept</button>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
