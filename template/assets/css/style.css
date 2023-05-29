@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+body{
+    background-color: #F5F5F5;
+}
+/*----------------------LIB--------------------------*/
+.linked{
+    color:#2B78E4;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor:pointer;
+}
+button{
+    box-shadow: 2px 2px black;
+    padding: 5px 25px;
+    border: 2px solid black;
+    font-size: 15px;
+    cursor:pointer;
+}
+/*----------------------------------------------------*/
+/*---------------------HEADER-------------------------*/
+.topBar{
+    background: #004182;
+    color:white;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px;
+}
+.topBar h1{
+    font-size: 50px;
+}
+.topBar ul{
+    display: flex;
+    justify-content: space-around;
+}
+.topBar li{
+    list-style: none;
+    font-size: 25px;
+    margin: 0 15px;
+    cursor:pointer;
+}
+/*----------------------------------------------*/
+
+/*----------------------------------------------*/
+
+/*----------------------------------------------------*/
+@media screen and (max-width:640px) {
+    .topBar{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:330px) {
+    .topBar h1{
+        font-size: 30px;
+    }
+    .topBar li{
+        font-size: 15px;
+    }
+}

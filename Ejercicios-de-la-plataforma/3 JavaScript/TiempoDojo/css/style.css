@@ -29,7 +29,7 @@ button{
     display:flex;
     justify-content: space-around;
     align-items: center;
-    padding:20px;
+    padding:20px 10%;
 }
 .topBar h1{
     font-size: 50px;
@@ -51,6 +51,7 @@ button{
     align-items: center;
     margin:20px;
     border-bottom: 2px solid rgb(46, 46, 46);
+    padding: 0 15%;
 }
 .topNav div{
     display:flex;
@@ -65,16 +66,18 @@ button{
 /*-----------------------MAIN--------------------------*/
 .showTemperatures{
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    padding: 0 15%;
+    
 }
 .weatherCard{
     display:flex;
     flex-direction: column;
     align-items: center;
     background: #EEEEEE;
-    padding:5px;
-    margin:5px;
+    padding:1%;
+    margin:1%;
 }
 .weatherCard h3{
     font-size: 25px;
@@ -104,13 +107,14 @@ button{
 /*----------------------FOOTER-------------------------*/
 .cookiesDiv{
     border:2px solid black;
-    margin:5% 5% 0;
+    margin:5% 15% 0;
     display:flex;
     justify-content: space-around;
     align-items: center;
     background-color: aliceblue;
     position: fixed;
     bottom:0;
+    
 }
 .cookiesDiv img{
     width: 50px;
@@ -122,4 +126,35 @@ button{
 .acceptCookies{
     margin:10px;
     width: 30%;
+}
+
+@media screen and (max-width:640px) {
+    .topBar{
+        flex-direction: column;
+    }
+    .topNav{
+        padding: 0 5%;
+    }
+    .topNav h2{
+        font-size: 25px;
+    }
+    .topNav p{
+        font-size: 15px;
+    }
+    .topNav select{
+        padding: 1px;
+    }
+    .showTemperatures{
+        flex-wrap: wrap;
+        padding: 0 5%;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .topBar h1{
+        font-size: 30px;
+    }
+    .topBar li{
+        font-size: 15px;
+    }
 }

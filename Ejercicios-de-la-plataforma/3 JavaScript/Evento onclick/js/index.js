@@ -11,8 +11,10 @@ function logout(button){
 }
 
 function search(){
-    setTimeout(alertaDeBusqueda,2000); //asincrono
+    setTimeout(alertaDeBusqueda,5000); //asincrono
+    alert("Buscando...");
 }
+
 function alertaDeBusqueda(){
     let mensaje=document.querySelector(".search");
     alert("Tu busqueda es la siguiente: " + mensaje.value);

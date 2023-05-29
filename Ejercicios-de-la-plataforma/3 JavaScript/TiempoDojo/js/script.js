@@ -1,16 +1,11 @@
 function alertaTop(elemento){
-    //console.log(elemento.innerText);
     alert("Loading weather report.\nYou have selected the city of "+ elemento.innerText + ".");
 }
 function acceptCookies(elemento){
-    //console.log(elemento);
-    //console.log(elemento.closest(".cookiesDiv"));
     elemento.closest(".cookiesDiv").remove();
 }
 var degreeIni="°C";
 function transDeg(elemento){
-    //console.log(elemento.value);
-    //console.log(document.querySelectorAll(".temMin"));
     let temperaturasMAX=document.querySelectorAll(".temMax");
     let temperaturasMIN=document.querySelectorAll(".temMin");
     if(elemento.value=="°C" && elemento.value!=degreeIni){
