@@ -9,7 +9,6 @@ function stopPreview(video){
     video.pause();
 }
 
-
 function activeControls(video) {
     video.load();
     video.setAttribute('controls', '');
