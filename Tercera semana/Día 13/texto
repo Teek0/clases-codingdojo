@@ -1,0 +1,29 @@
+ajax & apis
+AJAX (Asynchronous JavaScript and XML)
+API (Aplication Program Interface)
+
+backend
+python flask 
+java spring
+c# .net
+ruby rails
+
+API request
+
+url endpoint
+
+parametros
+
+body
+
+métodos
+    get leer info
+    post almacenar info
+    put actualizar
+    delete remover
+
+API response
+
+JSON    todo es string
+status => 404 400 401 500 etc / 200 201 204 etc
+
